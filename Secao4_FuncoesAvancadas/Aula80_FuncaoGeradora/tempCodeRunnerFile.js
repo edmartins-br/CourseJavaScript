@@ -1,0 +1,1 @@
+console.log(g2.net().value

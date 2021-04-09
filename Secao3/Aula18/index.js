@@ -6,7 +6,7 @@ const pessoa1 = {
 
     fala(){
         console.log(`A minha idade atual é ${this.idade}`)
-        console.log(`${this.nome} ${this.sobrenome} está falando oninput...`);
+        console.log(`${this.nome} ${this.sobrenome} está falando oi...`);
     },
 
     incrementaIdade(){
@@ -15,11 +15,13 @@ const pessoa1 = {
 };
 
 pessoa1.fala();
-
-
-
-
-
+pessoa1.incrementaIdade()
+pessoa1.fala();
+pessoa1.incrementaIdade()
+pessoa1.fala();
+pessoa1.incrementaIdade()
+pessoa1.fala();
+pessoa1.incrementaIdade()
 
 // chaves criam objetos, colchetes criam arrays
 // função Factory - cria objetios
